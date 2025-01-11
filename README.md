@@ -1,2 +1,2 @@
 # Converse_ChuckTaylor
- E-commerce product
+ E-commerce product with basic HTML
