@@ -1,7 +1,17 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
 body {
-    border: rgb(43, 43, 43) solid 4px;
     font-family: sans-serif;
-    line-height: 1.4;
+    line-height: 1.4; 
+    
+}
+.container {
+    border: rgb(43, 43, 43) solid 4px;
+    width: 825px;
+    margin: 50px auto; 
     
 }
 .header-title {
@@ -9,12 +19,23 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 22px;
+    padding: 15px;
 }
-.free {
+.free-shipping {
     text-transform: uppercase;
     color: #777;
     font-size: 12px;
     font-weight: bold;
+    margin-bottom: 25px;
+}
+.more-info {
+    color: #000;
+    margin-bottom: 25px;
+} 
+.product-details {
+    text-transform: uppercase;
+    margin: 25px 0;
+  
 }
 h3 {
     font-size: 24px;
@@ -22,22 +43,21 @@ h3 {
 p, a, h2 {
     font-size: 16px;
 }
-.product-details {
-    text-transform: uppercase;
-}
-li {
-    list-style: square;
-}
 
+.details-list {
+    list-style: square;
+    margin-left: 20px;
+}
+.details-list li {
+    margin-bottom: 20px;
+}
 .more-info:link, .more-info:active {
     color:#000;
 }
 .more-info:hover, .more-info:active {
     text-decoration: none;
 }
-.more-info {
-    color: #000;
-}
+
 /* .info {
     color: #000;
 }
@@ -56,9 +76,13 @@ a:hover {
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
+    width: 100%;
+    padding: 20px 0;
+   
 }
 .add-cart:hover {
     background-color: #fff;
     color: #000;
-    border: none;
+    border-top: solid black 4px;
+    
 }
