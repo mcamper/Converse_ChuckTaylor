@@ -1,0 +1,51 @@
+body {
+    border: rgb(43, 43, 43) solid 4px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    
+}
+.header-title {
+    background-color: #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.free {
+    text-transform: uppercase;
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+}
+p, a, h2 {
+    font-size: 16px;
+}
+.product-details {
+    text-transform: uppercase;
+}
+li {
+    list-style: square;
+}
+.info {
+    color: #000;
+}
+/* a:link {
+    color: black;
+} */
+a:active {
+    color: #000;
+}
+a:hover {
+    text-decoration: none; 
+}
+.add-cart {
+    background-color: #000;
+    color:#fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.add-cart:hover {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
