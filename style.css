@@ -16,6 +16,9 @@ body {
     font-size: 12px;
     font-weight: bold;
 }
+h3 {
+    font-size: 24px;
+}
 p, a, h2 {
     font-size: 16px;
 }
@@ -25,18 +28,28 @@ p, a, h2 {
 li {
     list-style: square;
 }
-.info {
+
+.more-info:link, .more-info:active {
+    color:#000;
+}
+.more-info:hover, .more-info:active {
+    text-decoration: none;
+}
+.more-info {
+    color: #000;
+}
+/* .info {
     color: #000;
 }
 /* a:link {
     color: black;
 } */
-a:active {
+/* a:active {
     color: #000;
 }
 a:hover {
     text-decoration: none; 
-}
+} */ 
 .add-cart {
     background-color: #000;
     color:#fff;
