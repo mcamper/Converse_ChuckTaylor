@@ -29,9 +29,9 @@ body {
     color: #777;
     font-size: 12px;
     font-weight: bold;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px;
     float: right;
-    margin-top: 8px;
+    margin-top: 8px; */
 }
 .more-info {
     color: #000;
@@ -146,7 +146,7 @@ a:hover {
     /* width: 25px;
     height: 25px; */
 }
-.product-description {
+/* .product-description {
    clear:both;
 }
 .product-info {
@@ -164,4 +164,4 @@ a:hover {
 .product-img {
     float: left;
     margin-right: 40px;
-}
+} */
