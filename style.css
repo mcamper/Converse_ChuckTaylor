@@ -6,7 +6,7 @@
 body {
     font-family: sans-serif;
     line-height: 1.4; 
-    position: relative;
+    
 }
 .container {
     border: rgb(43, 43, 43) solid 4px;
@@ -20,6 +20,7 @@ body {
     text-transform: uppercase;
     font-size: 22px;
     padding: 15px;
+    position: relative;
 }
 .free-shipping {
     text-transform: uppercase;
@@ -32,6 +33,9 @@ body {
     color: #000;
     margin-bottom: 25px;
 } 
+.color-selection {
+   margin-top: 25px;
+}  
 .product-details {
     text-transform: uppercase;
     margin: 25px 0;
@@ -83,6 +87,48 @@ a:hover {
 .add-cart:hover {
     background-color: #fff;
     color: #000;
-    border-top: solid black 4px;
-    
+    border-top: solid black 4px; 
+}
+.sale {
+    font-size: 22px;
+    padding: 7px 15px;
+    cursor: pointer;
+    position: absolute;
+    background-color: #ec2f2f;
+    font-weight: bold;
+    display: inline-block;
+    top: 30px;
+    left: 170px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.color-black {
+    background-color: #000;
+    padding: 14px 14px;
+    margin-right: 15px;
+}
+.color-blue {
+    background-color: blue;
+    padding: 14px 14px;
+    margin-right: 15px;
+}
+.color-red {
+    background-color: red;
+    padding: 14px 14px;
+    margin-right: 15px;
+}
+.color-yellow {
+    background-color: yellow;
+    padding: 14px 14px;
+    margin-right: 15px;
+}
+.color-green {
+    background-color: green;
+    padding: 14px 14px;
+    margin-right: 15px;
+}
+.color-brown {
+    background-color: brown;
+    padding: 14px 14px;
 }
